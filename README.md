@@ -69,7 +69,6 @@ We want to update the constructor, so that the API request is automatically sent
 
   }
 
-  // Methods will be added next.
 
   Future<void> fetchArticle() async {
 
