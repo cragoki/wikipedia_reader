@@ -17,6 +17,8 @@ The following lessons have been covered:
 -   Using the MVVM architecture pattern.
 -   Rebuild UI when state changes
 
+  
+
 Making HTTP requests in Flutter.
 --------------------------------
 
@@ -37,6 +39,9 @@ For HTTP requests, we use async and await keywords, and return a 'Future', which
 The Uri.https constructor safely builds URLs by handling encoding and formatting. This approach is more reliable than string concatenation, especially when dealing with special characters or query parameters.
 
 We then need to decode the returned JSON response from the Wikipedia API, and convert it into our own custom object, Summary.
+
+
+
 
 Managing application state with ChangeNotifier.
 -----------------------------------------------
@@ -79,6 +84,9 @@ notifyListeners();
 }
 
 Constructors cannot be asynchronous, hence why we need fetchArticle as a separate function. notifyListeners() will inform the UI of the update.
+
+
+
 
 Rebuild UI when state changes
 -----------------------------
